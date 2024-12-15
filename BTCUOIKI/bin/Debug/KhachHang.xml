@@ -1,0 +1,92 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="KhachHang" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="KhachHang">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MaKH" type="xs:string" minOccurs="0" />
+                <xs:element name="TenKH" type="xs:string" minOccurs="0" />
+                <xs:element name="SoDienThoai" type="xs:string" minOccurs="0" />
+                <xs:element name="Email" type="xs:string" minOccurs="0" />
+                <xs:element name="DiaChi" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <KhachHang>
+    <MaKH>KH001</MaKH>
+    <TenKH>Trần Anh</TenKH>
+    <SoDienThoai>0981123456</SoDienThoai>
+    <Email>anh.tran@example.com</Email>
+    <DiaChi>Hà Nội</DiaChi>
+  </KhachHang>
+  <KhachHang>
+    <MaKH>KH002</MaKH>
+    <TenKH>Nguyễn Bảo</TenKH>
+    <SoDienThoai>0982234567</SoDienThoai>
+    <Email>bao.nguyen@example.com</Email>
+    <DiaChi>Hồ Chí Minh</DiaChi>
+  </KhachHang>
+  <KhachHang>
+    <MaKH>KH003</MaKH>
+    <TenKH>Lê Cường</TenKH>
+    <SoDienThoai>0983345678</SoDienThoai>
+    <Email>cuong.le@example.com</Email>
+    <DiaChi>Đà Nẵng</DiaChi>
+  </KhachHang>
+  <KhachHang>
+    <MaKH>KH004</MaKH>
+    <TenKH>Phạm Dũng</TenKH>
+    <SoDienThoai>0984456789</SoDienThoai>
+    <Email>dung.pham@example.com</Email>
+    <DiaChi>Hải Phòng</DiaChi>
+  </KhachHang>
+  <KhachHang>
+    <MaKH>KH005</MaKH>
+    <TenKH>Hoàng Em</TenKH>
+    <SoDienThoai>0985567890</SoDienThoai>
+    <Email>em.hoang@example.com</Email>
+    <DiaChi>Cần Thơ</DiaChi>
+  </KhachHang>
+  <KhachHang>
+    <MaKH>KH006</MaKH>
+    <TenKH>Vũ Phong</TenKH>
+    <SoDienThoai>0986678901</SoDienThoai>
+    <Email>phong.vu@example.com</Email>
+    <DiaChi>Vũng Tàu</DiaChi>
+  </KhachHang>
+  <KhachHang>
+    <MaKH>KH007</MaKH>
+    <TenKH>Tô Hải</TenKH>
+    <SoDienThoai>0987789012</SoDienThoai>
+    <Email>hai.to@example.com</Email>
+    <DiaChi>Bắc Ninh</DiaChi>
+  </KhachHang>
+  <KhachHang>
+    <MaKH>KH008</MaKH>
+    <TenKH>Trịnh Huy</TenKH>
+    <SoDienThoai>0988890123</SoDienThoai>
+    <Email>huy.trinh@example.com</Email>
+    <DiaChi>Nha Trang</DiaChi>
+  </KhachHang>
+  <KhachHang>
+    <MaKH>KH009</MaKH>
+    <TenKH>Ngô Bình</TenKH>
+    <SoDienThoai>0989901234</SoDienThoai>
+    <Email>binh.ngo@example.com</Email>
+    <DiaChi>Quảng Ninh</DiaChi>
+  </KhachHang>
+  <KhachHang>
+    <MaKH>KH010</MaKH>
+    <TenKH>Phan Kỳ</TenKH>
+    <SoDienThoai>0990012345</SoDienThoai>
+    <Email>ky.phan@example.com</Email>
+    <DiaChi>Nam Định</DiaChi>
+  </KhachHang>
+</NewDataSet>

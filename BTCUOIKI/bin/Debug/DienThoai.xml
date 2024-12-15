@@ -1,0 +1,114 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DienThoai" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DienThoai">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MaDT" type="xs:string" minOccurs="0" />
+                <xs:element name="TenDT" type="xs:string" minOccurs="0" />
+                <xs:element name="MaDM" type="xs:string" minOccurs="0" />
+                <xs:element name="GiaBan" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SoLuongTon" type="xs:int" minOccurs="0" />
+                <xs:element name="MoTa" type="xs:string" minOccurs="0" />
+                <xs:element name="Anh" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DienThoai>
+    <MaDT>DT001</MaDT>
+    <TenDT>Samsung Galaxy S23</TenDT>
+    <MaDM>DM001</MaDM>
+    <GiaBan>25000000.00</GiaBan>
+    <SoLuongTon>100</SoLuongTon>
+    <MoTa>Dòng flagship mới nhất của Samsung</MoTa>
+    <Anh>D:\XML\CUOIKI_final\images\galaxy_s23.PNG</Anh>
+  </DienThoai>
+  <DienThoai>
+    <MaDT>DT002</MaDT>
+    <TenDT>iPhone 14 Pro</TenDT>
+    <MaDM>DM002</MaDM>
+    <GiaBan>30000000.00</GiaBan>
+    <SoLuongTon>80</SoLuongTon>
+    <MoTa>Dòng cao cấp của Apple</MoTa>
+    <Anh>D:\XML\CUOIKI_final\images\iphone_14_pro.PNG</Anh>
+  </DienThoai>
+  <DienThoai>
+    <MaDT>DT003</MaDT>
+    <TenDT>Xiaomi 13</TenDT>
+    <MaDM>DM003</MaDM>
+    <GiaBan>18000000.00</GiaBan>
+    <SoLuongTon>120</SoLuongTon>
+    <MoTa>Hiệu năng vượt trội với giá tốt</MoTa>
+    <Anh>D:\XML\CUOIKI_final\images\xiaomi_13.jpg</Anh>
+  </DienThoai>
+  <DienThoai>
+    <MaDT>DT004</MaDT>
+    <TenDT>Oppo Find X5</TenDT>
+    <MaDM>DM004</MaDM>
+    <GiaBan>20000000.00</GiaBan>
+    <SoLuongTon>90</SoLuongTon>
+    <MoTa>Thiết kế đẹp và camera tốt</MoTa>
+    <Anh>D:\XML\CUOIKI_final\images\oppo_find_x5.jpg</Anh>
+  </DienThoai>
+  <DienThoai>
+    <MaDT>DT005</MaDT>
+    <TenDT>Vivo X90</TenDT>
+    <MaDM>DM005</MaDM>
+    <GiaBan>15000000.00</GiaBan>
+    <SoLuongTon>150</SoLuongTon>
+    <MoTa>Tập trung vào trải nghiệm chụp ảnh</MoTa>
+    <Anh>D:\XML\CUOIKI_final\images\vivo_x90.jpg</Anh>
+  </DienThoai>
+  <DienThoai>
+    <MaDT>DT006</MaDT>
+    <TenDT>Nokia X20</TenDT>
+    <MaDM>DM006</MaDM>
+    <GiaBan>10000000.00</GiaBan>
+    <SoLuongTon>200</SoLuongTon>
+    <MoTa>Bền bỉ và đáng tin cậy</MoTa>
+    <Anh>D:\XML\CUOIKI_final\images\nokia_x20.jpg</Anh>
+  </DienThoai>
+  <DienThoai>
+    <MaDT>DT007</MaDT>
+    <TenDT>Asus ROG Phone 6</TenDT>
+    <MaDM>DM007</MaDM>
+    <GiaBan>22000000.00</GiaBan>
+    <SoLuongTon>50</SoLuongTon>
+    <MoTa>Dành cho game thủ chuyên nghiệp</MoTa>
+    <Anh>D:\XML\CUOIKI_final\images\asus_rog_phone_6.jpg</Anh>
+  </DienThoai>
+  <DienThoai>
+    <MaDT>DT008</MaDT>
+    <TenDT>Google Pixel 7</TenDT>
+    <MaDM>DM008</MaDM>
+    <GiaBan>27000000.00</GiaBan>
+    <SoLuongTon>70</SoLuongTon>
+    <MoTa>Chụp ảnh đỉnh cao</MoTa>
+    <Anh>D:\XML\CUOIKI_final\images\google_pixel_7.jpg</Anh>
+  </DienThoai>
+  <DienThoai>
+    <MaDT>DT009</MaDT>
+    <TenDT>Sony Xperia 1 IV</TenDT>
+    <MaDM>DM009</MaDM>
+    <GiaBan>25000000.00</GiaBan>
+    <SoLuongTon>60</SoLuongTon>
+    <MoTa>Màn hình 4K đầu tiên trên smartphone</MoTa>
+    <Anh>D:\XML\CUOIKI_final\images\sony_xperia_1_iv.jpg</Anh>
+  </DienThoai>
+  <DienThoai>
+    <MaDT>DT010</MaDT>
+    <TenDT>Motorola Edge 30</TenDT>
+    <MaDM>DM010</MaDM>
+    <GiaBan>20000000.00</GiaBan>
+    <SoLuongTon>110</SoLuongTon>
+    <MoTa>Thiết kế hiện đại và hiệu năng tốt</MoTa>
+    <Anh>D:\XML\CUOIKI_final\images\sony_xperia_1_iv.jpg</Anh>
+  </DienThoai>
+</NewDataSet>

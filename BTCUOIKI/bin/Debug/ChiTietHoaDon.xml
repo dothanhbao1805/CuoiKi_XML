@@ -1,0 +1,80 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ChiTietHoaDon" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ChiTietHoaDon">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MaHD" type="xs:string" minOccurs="0" />
+                <xs:element name="MaDT" type="xs:string" minOccurs="0" />
+                <xs:element name="SoLuong" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <ChiTietHoaDon>
+    <MaHD>HD001</MaHD>
+    <MaDT>DT001</MaDT>
+    <SoLuong>2</SoLuong>
+  </ChiTietHoaDon>
+  <ChiTietHoaDon>
+    <MaHD>HD001</MaHD>
+    <MaDT>DT002</MaDT>
+    <SoLuong>1</SoLuong>
+  </ChiTietHoaDon>
+  <ChiTietHoaDon>
+    <MaHD>HD002</MaHD>
+    <MaDT>DT003</MaDT>
+    <SoLuong>3</SoLuong>
+  </ChiTietHoaDon>
+  <ChiTietHoaDon>
+    <MaHD>HD003</MaHD>
+    <MaDT>DT004</MaDT>
+    <SoLuong>1</SoLuong>
+  </ChiTietHoaDon>
+  <ChiTietHoaDon>
+    <MaHD>HD004</MaHD>
+    <MaDT>DT005</MaDT>
+    <SoLuong>4</SoLuong>
+  </ChiTietHoaDon>
+  <ChiTietHoaDon>
+    <MaHD>HD005</MaHD>
+    <MaDT>DT006</MaDT>
+    <SoLuong>5</SoLuong>
+  </ChiTietHoaDon>
+  <ChiTietHoaDon>
+    <MaHD>HD006</MaHD>
+    <MaDT>DT007</MaDT>
+    <SoLuong>1</SoLuong>
+  </ChiTietHoaDon>
+  <ChiTietHoaDon>
+    <MaHD>HD007</MaHD>
+    <MaDT>DT008</MaDT>
+    <SoLuong>2</SoLuong>
+  </ChiTietHoaDon>
+  <ChiTietHoaDon>
+    <MaHD>HD008</MaHD>
+    <MaDT>DT009</MaDT>
+    <SoLuong>1</SoLuong>
+  </ChiTietHoaDon>
+  <ChiTietHoaDon>
+    <MaHD>HD009</MaHD>
+    <MaDT>DT010</MaDT>
+    <SoLuong>3</SoLuong>
+  </ChiTietHoaDon>
+  <ChiTietHoaDon>
+    <MaHD>HD010</MaHD>
+    <MaDT>DT001</MaDT>
+    <SoLuong>1</SoLuong>
+  </ChiTietHoaDon>
+  <ChiTietHoaDon>
+    <MaHD>HD011</MaHD>
+    <MaDT>DT001</MaDT>
+    <SoLuong>7</SoLuong>
+  </ChiTietHoaDon>
+</NewDataSet>
